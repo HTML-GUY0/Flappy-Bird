@@ -5,14 +5,23 @@ A simple Flappy Bird game built using HTML, CSS, and JavaScript, designed to wor
  # Features
 
 ✔️ Start Button – The game starts when the player presses the "Start" button.
+
 ✔️ Jump Mechanics – Tap or click to make the bird jump.
+
 ✔️ Easier Gameplay – Adjusted difficulty for a smoother experience.
-✔️ Reduced Jump Height – More controlled movements.
+
+✔️ Reduced Jump Height – More controlled movements
+.
 ✔️ Pipe Images – Replaced solid color pipes with image-based pipes.
+
 ✔️ Proper Pipe Positioning – Pipes are aligned correctly (one facing up, one facing down).
+
 ✔️ Game Over Screen – Displays red "Game Over" text upon losing.
+
 ✔️ Restart Button – Restart the game after losing.
-✔️ Main Menu Button – Return to the main menu after losing.
+
+✔️ Main Menu Button – Return to the main menu after losing
+.
 ✔️ Sky Background – A visually appealing background.
 
  # How to Play
@@ -37,10 +46,6 @@ HTML – Structure of the game.
 CSS – Styling and layout.
 
 JavaScript – Game mechanics and logic.
-
-# Live Demo
-
-(If hosted online, provide a link here.)
 
  # Installation
 
