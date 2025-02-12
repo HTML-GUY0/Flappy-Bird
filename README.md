@@ -60,10 +60,5 @@ git clone https://github.com/User44442/Flappy-Bird.git
 
  # License
 
-This project is open-source and available under the MIT License.
-
-
----
-
-Let me know if you want any modifications!
+This project is open-source and available under the MIT License. 
 
