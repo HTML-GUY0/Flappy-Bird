@@ -51,7 +51,7 @@ JavaScript – Game mechanics and logic.
 
 1. Clone this repository:
 
-git clone https://github.com/yourusername/flappy-bird.git
+git clone https://github.com/User44442/Flappy-Bird.git
 
 
 2. Open index.html in a browser to play.
