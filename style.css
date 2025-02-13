@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "KoHo", serif;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #70c5ce;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    border: 2px solid black;
+    background: url('sky.png') no-repeat center center / cover;
+}
+
+/* Show the menu initially */
+#menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: White;
+    display: block;  
+    opacity: 1;
+}
+
+#gameOverScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#gameOverScreen.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#gameOverText {
+    color: red;
+}
+
+/* Style for buttons */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
