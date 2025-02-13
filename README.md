@@ -10,11 +10,7 @@ A simple Flappy Bird game built using HTML, CSS, and JavaScript, designed to wor
 
 ✔️ Easier Gameplay – Adjusted difficulty for a smoother experience.
 
-✔️ Reduced Jump Height – More controlled movements
-.
-✔️ Pipe Images – Replaced solid color pipes with image-based pipes.
-
-✔️ Proper Pipe Positioning – Pipes are aligned correctly (one facing up, one facing down).
+✔️ Reduced Jump Height – More controlled movements.
 
 ✔️ Game Over Screen – Displays red "Game Over" text upon losing.
 
@@ -23,6 +19,8 @@ A simple Flappy Bird game built using HTML, CSS, and JavaScript, designed to wor
 ✔️ Main Menu Button – Return to the main menu after losing
 .
 ✔️ Sky Background – A visually appealing background.
+
+✔️ All of these features on html, css and javascript only.
 
  # How to Play
 
@@ -39,7 +37,7 @@ A simple Flappy Bird game built using HTML, CSS, and JavaScript, designed to wor
 
 
 
-Technologies Used
+# Technologies Used
 
 HTML – Structure of the game.
 
