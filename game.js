@@ -20,12 +20,6 @@ pipeTopImg.src = "pipe.png";
 const pipeBottomImg = new Image();
 pipeBottomImg.src = "pipe.png";
 
-// Load sound effects
-const flapSound = new Audio("sfx_wing.ogg");
-const pointSound = new Audio("sfx_point.ogg");
-const hitSound = new Audio("sfx_hit.ogg");
-const gameOverSound = new Audio("sfx_die.ogg");
-
 // Load Highest Score from Local Storage
 let highestScore = localStorage.getItem("highestScore") || 0;
 let gameRunning = false;
