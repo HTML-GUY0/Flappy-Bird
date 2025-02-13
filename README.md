@@ -22,6 +22,10 @@ A simple Flappy Bird game built using HTML, CSS, and JavaScript, designed to wor
 
 ✔️ All of these features on html, css and javascript only.
 
+# Live Demo
+
+https://user44442.github.io/Flappy-Bird/
+
  # How to Play
 
 1. Click the Start button to begin.
