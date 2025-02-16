@@ -16,8 +16,8 @@ A simple Flappy Bird game built using HTML, CSS, and JavaScript, designed to wor
 
 ✔️ Restart Button – Restart the game after losing.
 
-✔️ Main Menu Button – Return to the main menu after losing
-.
+✔️ Main Menu Button – Return to the main menu after losing. 
+
 ✔️ Sky Background – A visually appealing background.
 
 ✔️ All of these features on html, css and javascript only.
