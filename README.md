@@ -37,7 +37,7 @@ https://user44442.github.io/Flappy-Bird/
 3. Avoid hitting the pipes.
 
 
-4. If you lose, press Restart to try again or Main Menu to go back.
+4. If you lose, press Restart to try again.
 
 
 
