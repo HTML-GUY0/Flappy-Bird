@@ -32,7 +32,7 @@ https://html-guy0.github.io/Flappy-Bird/
 1. Click the Start button to begin.
 
 
-2. Tap (or left click) to make the bird jump.
+2. Tap or click space to make the bird jump.
 
 
 3. Avoid hitting the pipes.
