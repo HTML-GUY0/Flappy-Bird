@@ -55,8 +55,5 @@ https://user44442.github.io/Flappy-Bird/
 # Errors
 
 - There's no errors :)
-
- # License
-
-This project is open-source and available under the MIT License. 
+ 
 
