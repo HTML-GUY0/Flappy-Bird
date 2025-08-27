@@ -20,11 +20,12 @@ A simple Flappy Bird game built using HTML, CSS, and JavaScript only.
 
 - ✔️ Sky Background – A visually appealing background.
 
-- ✔️ All of these features on html, css and javascript only.
+- ✔️ Saved Score – Score is always saved until you delete your browsing data
+
 
 # Live Demo
 
-https://user44442.github.io/Flappy-Bird/
+https://html-guy0.github.io/Flappy-Bird/
 
  # How to Play
 
