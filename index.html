@@ -13,17 +13,24 @@
 
     <!-- Main Menu -->
     <div id="menu">
-        <h1>Flappy Bird</h1>
-        <button id="startBtn">PLAY</button>
+        <img id="menuTitle" src="sprites/flappybird-text.png" alt="Flappy Bird">
+        <img id="startBtn" class="button" src="sprites/play.png" alt="Play">
     </div>
 
     <!-- Game Over Screen -->
     <div id="gameOverScreen">
-        <h1 id="gameOverText">Game Over!</h1>
-        <p>Final Score: <span id="finalScore">0</span></p>
-        <button id="restartBtn">Restart</button>
+        <img id="gameOverText" src="sprites/gameover-text.png" alt="Game Over!">
+        <div id="finalScoreContainer">
+            <img src="sprites/final-score.png" alt="Final Score">
+            <div id="finalScoreNumbers"></div>
+        </div>
+        <div id="bestScoreContainer">
+            <img src="sprites/best-text.png" alt="Best Score">
+            <div id="bestScoreNumbers"></div>
+        </div>
+        <img id="restartBtn" class="button" src="sprites/restart.png" alt="Restart">
     </div>
 
-    <script src="game.js"></script>
+    <script src="/js/game.js"></script>
 </body>
 </html>
