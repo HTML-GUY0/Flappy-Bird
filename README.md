@@ -20,12 +20,16 @@ A Flappy Bird game built using JavaScript mainly.
 
 -  Sky Background – A visually appealing background.
 
+- Base Image – An animated image of the ground/base without any sprite sheet.
+
+- Flappy Bird – The flappy bird is animated using sprite sheet so it looks like it's flying.
+
 -  Saved Score – Score is always saved until you delete your browsing data
 
 
 # 🔴 Live Demo
 
-https://html-guy0.github.io/Flappy-Bird/
+# https://html-guy0.github.io/Flappy-Bird/
 
  # ❓How to Play❓
 
@@ -50,6 +54,7 @@ https://html-guy0.github.io/Flappy-Bird/
 - Images font has the flappy bird font.
 - The bird is animated using sprite sheet.
 - This is only made out of only three files
+- The base.png is animated too but without any sprite sheet or gif.
 
 # Technologies Used
 
