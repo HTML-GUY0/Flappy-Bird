@@ -50,12 +50,12 @@ canvas {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     background: rgba(0, 0, 0, 0.8);
-    padding: 10px;             /* smaller padding */
+    padding: 10px;
     border-radius: 8px;
     color: white;
     display: none;
     opacity: 0;
-    max-width: 180px;           /* compact width */
+    max-width: 180px;
     text-align: center;
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
@@ -67,7 +67,7 @@ canvas {
 
 /* Game Over Text */
 #gameOverText {
-    width: 140px;               /* smaller title */
+    width: 140px;
     margin: 0 auto 6px;
 }
 
@@ -82,7 +82,7 @@ canvas {
 
 /* Label images */
 #finalScoreContainer img {
-    max-width: 120px;           /* slightly bigger final score label */
+    max-width: 120px;
     margin-right: 4px;
 }
 
@@ -91,7 +91,6 @@ canvas {
     margin-right: 4px;
 }
 
-/* Ensure digit images are in a row */
 #finalScoreNumbers,
 #bestScoreNumbers {
     display: flex;
@@ -110,13 +109,12 @@ canvas {
 
 /* Restart Button */
 #restartBtn {
-    max-width: 100px;           /* smaller button */
+    max-width: 100px;
     margin-top: 6px;
     cursor: pointer;
     transition: transform 0.1s ease;
 }
 
-/* Click effect for buttons and remove blue outline/highlight */
 img.button {
     cursor: pointer;
     transition: transform 0.1s ease;
@@ -125,5 +123,5 @@ img.button {
 }
 
 img.button:active {
-    transform: scale(0.95); /* shrink on click */
+    transform: scale(0.95);
 }
