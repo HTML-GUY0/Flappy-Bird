@@ -27,7 +27,7 @@ A Flappy Bird game built using JavaScript mainly.
 
 https://html-guy0.github.io/Flappy-Bird/
 
- # ❓ How to Play ❓
+ # ❓How to Play❓
 
 1. Click the Start button to begin.
 
