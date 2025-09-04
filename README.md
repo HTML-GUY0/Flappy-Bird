@@ -1,33 +1,33 @@
-#  Flappy Bird
+# 🐦 Flappy Bird
 
-A simple Flappy Bird game built using HTML, CSS, and JavaScript only.
+A Flappy Bird game built using JavaScript mainly.
 
- # Features
+# ⭐ Features
 
-- ✔️ Start Button – The game starts when the player presses the "Start" button.
+- Start Button – The game starts when the player presses the "Start" button.
 
-- ✔️ Jump Mechanics – Tap or click to make the bird jump.
+-  Jump Mechanics – Tap or click to make the bird jump.
 
-- ✔️ Easier Gameplay – Adjusted difficulty for a smoother experience.
+-  Easier Gameplay – Adjusted difficulty for a smoother experience.
 
-- ✔️ Reduced Jump Height – More controlled movements.
+-  Reduced Jump Height – More controlled movements.
 
-- ✔️ Game Over Screen – Displays red "Game Over" text upon losing.
+-  Game Over Screen – Displays red "Game Over" text upon losing.
 
-- ✔️ Restart Button – Restart the game after losing.
+-  Restart Button – Restart the game after losing.
 
-- ✔️ Main Menu Button – Return to the main menu after losing. 
+-  Main Menu Button – Return to the main menu after losing. 
 
-- ✔️ Sky Background – A visually appealing background.
+-  Sky Background – A visually appealing background.
 
-- ✔️ Saved Score – Score is always saved until you delete your browsing data
+-  Saved Score – Score is always saved until you delete your browsing data
 
 
-# Live Demo
+# 🔴 Live Demo
 
 https://html-guy0.github.io/Flappy-Bird/
 
- # How to Play
+ # ❓ How to Play ❓
 
 1. Click the Start button to begin.
 
@@ -35,15 +35,21 @@ https://html-guy0.github.io/Flappy-Bird/
 2. Tap or click space to make the bird jump.
 
 
-3. Avoid hitting the pipes.
+3. Avoid hitting the pipes and go between them
 
 
-4. If you lose, press Restart to try again.
+4. If you lose, press Restart to play again.
 
   
 5. Enjoy :) 
    
- 
+# 🌟 What's Special?
+
+- Looks very identical to the real game.
+- There's no text every text and button is a image.
+- Images font has the flappy bird font.
+- The bird is animated using sprite sheet.
+- This is only made out of only three files
 
 # Technologies Used
 
