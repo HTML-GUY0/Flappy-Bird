@@ -14,12 +14,14 @@ body {
     height: 100vh;
     background-color: #70c5ce;
     overflow: hidden;
+    touch-action: none;
 }
 
 canvas {
     display: block;
     border: 2px solid black;
     background: url('sprites/sky.png') no-repeat center center / cover;
+    image-rendering: pixelated;
 }
 
 /* Main menu */
@@ -49,13 +51,12 @@ canvas {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    background: rgba(0, 0, 0, 0.8);
     padding: 10px;
     border-radius: 8px;
     color: white;
     display: none;
     opacity: 0;
-    max-width: 180px;
+    max-width: 240px;
     text-align: center;
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
@@ -67,8 +68,9 @@ canvas {
 
 /* Game Over Text */
 #gameOverText {
-    width: 140px;
+    width: 160px;     
     margin: 0 auto 6px;
+    margin-bottom: -50px;
 }
 
 /* Final Score & Best Score Containers */
@@ -82,15 +84,20 @@ canvas {
 
 /* Label images */
 #finalScoreContainer img {
-    max-width: 120px;
-    margin-right: 4px;
+    height: 200px;
+    width: 180px;
+    object-fit: contain;
+    margin-right: 5px;
 }
 
 #bestScoreContainer img {
-    max-width: 100px;
-    margin-right: 4px;
+    height: 95px;
+    width: auto;
+    margin-right: 5px;
+    margin-top: -80px;
 }
 
+/* Ensure digit images are in a row */
 #finalScoreNumbers,
 #bestScoreNumbers {
     display: flex;
@@ -100,11 +107,16 @@ canvas {
 }
 
 /* Digit images */
-#finalScoreNumbers img,
-#bestScoreNumbers img {
-    width: 16px;
-    height: 24px;
+#finalScoreNumbers img {
+    width: 18px;
+    height: 28px;
     margin: 0 1px;
+}
+#bestScoreNumbers img {
+    width: 18px;
+    height: 28px;
+    margin: 0 1px;
+    margin-top: -75px;
 }
 
 /* Restart Button */
@@ -115,13 +127,14 @@ canvas {
     transition: transform 0.1s ease;
 }
 
+/* Click effect for buttons and remove blue outline/highlight */
 img.button {
     cursor: pointer;
     transition: transform 0.1s ease;
-    outline: none;                     
-    -webkit-tap-highlight-color: transparent; 
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 img.button:active {
-    transform: scale(0.95);
+    transform: scale(0.95); 
 }

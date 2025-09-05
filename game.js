@@ -43,7 +43,7 @@ const pipes = [];
 
 const bird = { x: 50, y: canvas.height / 2, width: 34, height: 24, gravity: 0.25, lift: -5, velocity: 0 };
 let pipeTimer = 0;
-const pipeInterval = 120; 
+const pipeInterval = 120;
 const baseHeight = 50;
 let baseX = 0;
 
@@ -126,10 +126,19 @@ function drawPipes() {
     });
 }
 
+// ✅ Fixed sharp, centered numbers
 function drawNumber(x, y, num, scale = 1) {
     const digits = num.toString().split('');
+    const totalWidth = digits.length * 24 * scale; // total width of number row
+    const startX = x - totalWidth / 2;             // center align
     digits.forEach((digit, index) => {
-        ctx.drawImage(numberImgs[parseInt(digit)], x + index * 22 * scale, y, 20 * scale, 30 * scale);
+        ctx.drawImage(
+            numberImgs[parseInt(digit)],
+            startX + index * 24 * scale,
+            y,
+            22 * scale,
+            32 * scale
+        );
     });
 }
 
@@ -149,8 +158,8 @@ function draw() {
 
     drawPipes();
 
-    const scoreX = canvas.width / 2 - (score.toString().length * 11);
-    drawNumber(scoreX, 10, score, 1);
+    // ✅ centered score
+    drawNumber(canvas.width / 2, 10, score, 1);
 
     // Draw base
     ctx.drawImage(baseImg, baseX, canvas.height - baseHeight, canvas.width, baseHeight);
@@ -163,6 +172,7 @@ function renderNumber(container, num) {
     digits.forEach(d => {
         const img = new Image();
         img.src = `sprites/${d}.png`;
+        img.style.imageRendering = "pixelated";
         container.appendChild(img);
     });
 }
