@@ -1,76 +1,61 @@
 # 🐦 Flappy Bird
 
-A Flappy Bird game built using JavaScript mainly.
-
-# ⭐ Features
-
-- Start Button – The game starts when the player presses the "Start" button.
-
--  Jump Mechanics – Tap or click to make the bird jump.
-
--  Easier Gameplay – Adjusted difficulty for a smoother experience.
-
--  Reduced Jump Height – More controlled movements.
-
--  Game Over Screen – Displays red "Game Over" text upon losing.
-
--  Restart Button – Restart the game after losing.
-
--  Main Menu Button – Return to the main menu after losing. 
-
--  Sky Background – A visually appealing background.
-
-- Base Image – An animated image of the ground/base without any sprite sheet.
-
-- Flappy Bird – The flappy bird is animated using sprite sheet so it looks like it's flying.
-
--  Saved Score – Score is always saved until you delete your browsing data
-
-# 🛠️ Demo
-![Demo](demo.gif)
-
-
-# [🔴 Live Demo](https://html-guy0.github.io/Flappy-Bird/)
-
+A Flappy Bird game built primarily using **JavaScript**, with HTML and CSS providing structure and styling.
 
 ---
 
+# ⭐ Features
 
- # ❓How to Play❓
+- **Start Button** – Begins the game when pressed.  
+- **Jump Mechanics** – Tap or press space to make the bird jump.  
+- **Easier Gameplay** – Adjusted difficulty for smoother experience.  
+- **Reduced Jump Height** – More controlled bird movements.  
+- **Game Over Screen** – Displays red "Game Over" text when you lose.  
+- **Restart Button** – Play again immediately after losing.  
+- **Main Menu Button** – Return to the main menu after losing.  
+- **Sky Background** – Visually appealing backdrop.  
+- **Base Image** – Animated ground/base without any sprite sheet.  
+- **Flappy Bird** – Animated with a sprite sheet to simulate flying.  
+- **Saved Score** – Scores persist until browsing data is cleared.
 
-1. Click the Start button to begin.
+---
 
+# 🛠️ Demo
 
-2. Tap or click space to make the bird jump.
+![Demo](demo.gif)
 
+# [🔴 Live Demo](https://html-guy0.github.io/Flappy-Bird/)
 
-3. Avoid hitting the pipes and go between them
+---
 
+# ❓How to Play❓
 
-4. If you lose, press Restart to play again.
+1. Click the **Start** button to begin.  
+2. Tap or press **space** to make the bird jump.  
+3. Avoid hitting the pipes and navigate through them.  
+4. If you lose, press **Restart** to play again.  
+5. Enjoy! :)
 
-  
-5. Enjoy :) 
-   
-# 🌟 What's Special?
+---
 
-- Looks very identical to the real game.
-- There's no text every text and button is a image.
-- Images font has the flappy bird font.
-- The bird is animated using sprite sheet.
-- This is only made out of only three files
-- The base.png is animated too but without any sprite sheet or gif.
+# 🌟 What’s Special?
+
+- Looks very similar to the original Flappy Bird.  
+- All text and buttons are images, matching the original game style.  
+- Flappy Bird is animated using a sprite sheet.  
+- Base image is animated without using a sprite sheet or GIF.  
+- The game consists of only three main files (HTML, CSS, JS).  
+
+---
 
 # 💻 Technologies Used
 
-- HTML – Structure of the game.
+- **JavaScript** – Core game mechanics and logic.  
+- **HTML** – Structure of the game canvas and UI.  
+- **CSS** – Styling, layout, and background visuals.
 
-- CSS – Styling and layout.
-
-- JavaScript – Game mechanics and logic.
+---
 
 # ❌ Errors
 
-- There's no errors :)
- 
-
+- There are no errors. :)
