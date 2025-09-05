@@ -26,7 +26,7 @@ A Flappy Bird game built using JavaScript mainly.
 
 -  Saved Score – Score is always saved until you delete your browsing data
 
-# Demo
+# 🛠️ Demo
 ![Demo](demo.gif)
 
 
@@ -61,7 +61,7 @@ A Flappy Bird game built using JavaScript mainly.
 - This is only made out of only three files
 - The base.png is animated too but without any sprite sheet or gif.
 
-# Technologies Used
+# 💻 Technologies Used
 
 - HTML – Structure of the game.
 
@@ -69,7 +69,7 @@ A Flappy Bird game built using JavaScript mainly.
 
 - JavaScript – Game mechanics and logic.
 
-# Errors
+# ❌ Errors
 
 - There's no errors :)
  
