@@ -26,8 +26,14 @@ A Flappy Bird game built using JavaScript mainly.
 
 -  Saved Score – Score is always saved until you delete your browsing data
 
+# Demo
+![Demo](demo.png)
+
 
 # [🔴 Live Demo](https://html-guy0.github.io/Flappy-Bird/)
+
+
+---
 
 
  # ❓How to Play❓
