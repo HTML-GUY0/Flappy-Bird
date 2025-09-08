@@ -1,31 +1,25 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-// Original game resolution
 const ORIGINAL_WIDTH = 320;
 const ORIGINAL_HEIGHT = 480;
 
-// Fullscreen + centered + pixel-perfect scaling
 function resizeCanvas() {
     const windowWidth = window.innerWidth;
     const windowHeight = window.innerHeight;
     const dpr = window.devicePixelRatio || 1;
 
-    // Scale to fill vertically (top & bottom touch)
     const scaleX = windowWidth / ORIGINAL_WIDTH;
     const scaleY = windowHeight / ORIGINAL_HEIGHT;
     const scale = Math.max(scaleX, scaleY);
 
-    // CSS size for canvas
     canvas.style.width = ORIGINAL_WIDTH * scale + "px";
     canvas.style.height = ORIGINAL_HEIGHT * scale + "px";
 
-    // Center horizontally, top fixed
     canvas.style.position = "fixed";
     canvas.style.left = (windowWidth - ORIGINAL_WIDTH * scale) / 2 + "px";
     canvas.style.top = "0px";
 
-    // Internal resolution
     canvas.width = ORIGINAL_WIDTH * dpr;
     canvas.height = ORIGINAL_HEIGHT * dpr;
 
@@ -137,7 +131,7 @@ function flap() {
     }
 }
 
-// --- FIXED INPUT: pointer & key tracking ---
+// --- pointer & key tracking ---
 const activePointers = new Set();
 const keysPressed = new Set();
 
