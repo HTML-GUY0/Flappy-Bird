@@ -1,6 +1,6 @@
 # 🐦 Flappy Bird
 
-A Flappy Bird game built primarily using **JavaScript**, with HTML and CSS providing structure and styling.
+A Flappy Bird game built primarily using **JavaScript**.
 
 ---
 
@@ -17,6 +17,7 @@ A Flappy Bird game built primarily using **JavaScript**, with HTML and CSS provi
 - **Base Image** – Animated ground/base without any sprite sheet.  
 - **Flappy Bird** – Animated with a sprite sheet to simulate flying.  
 - **Saved Score** – Scores persist until browsing data is cleared.
+- **Rotation while flapping** – The bird rotates whenever it flaps like in the original game.
 
 ---
 
