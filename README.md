@@ -18,7 +18,7 @@ A Flappy Bird game built primarily using **JavaScript**.
 - **Flappy Bird** – Animated with a sprite sheet to simulate flying.  
 - **Saved Score** – Scores persist until browsing data is cleared.
 - **Rotation while flapping** – The bird rotates whenever it flaps like in the original game.
-
+- **Sound Effects** – There are sound effects for every click.
 ---
 
 # 🛠️ Demo
