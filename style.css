@@ -1,140 +1,149 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #70c5ce;
-    overflow: hidden;
-    touch-action: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #70c5ce;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  touch-action: none;
 }
 
 canvas {
-    display: block;
-    border: 2px solid black;
-    background: url('sprites/sky.png') no-repeat center center / cover;
-    image-rendering: pixelated;
+  border: 2px solid black;
+  background: url("sprites/sky.png") no-repeat center center / cover;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }
 
 /* Main menu */
 #menu {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
 
 #menu img {
-    display: block;
-    margin: 10px auto;
-    cursor: pointer;
-    width: auto;
-    max-width: 150px;
-    transition: transform 0.1s ease;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+  width: auto;
+  max-width: 150px;
+  transition: transform 0.1s ease;
 }
 
 #menuTitle {
-    width: 200px;
+  width: 200px;
+}
+
+/* Get Ready Screen */
+#getReadyScreen {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  z-index: 5;
+  image-rendering: pixelated;
 }
 
 /* Game Over Screen */
 #gameOverScreen {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    padding: 10px;
-    border-radius: 8px;
-    color: white;
-    display: none;
-    opacity: 0;
-    max-width: 240px;
-    text-align: center;
-    transition: opacity 0.5s ease, transform 0.5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  padding: 10px;
+  border-radius: 8px;
+  display: none;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: 10;
 }
 
 #gameOverScreen.show {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 
-/* Game Over Text */
 #gameOverText {
-    width: 160px;     
-    margin: 0 auto 6px;
-    margin-bottom: -50px;
+  width: 160px;
+  margin: 0 auto 10px;
+  margin-bottom: -50px;
 }
 
-/* Final Score & Best Score Containers */
+/* Score Containers */
 #finalScoreContainer,
 #bestScoreContainer {
-    display: flex;           
-    justify-content: center;
-    align-items: center;     
-    margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
 }
 
-/* Label images */
 #finalScoreContainer img {
-    height: 200px;
-    width: 180px;
-    object-fit: contain;
-    margin-right: 5px;
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  margin-right: 5px;
 }
 
 #bestScoreContainer img {
-    height: 95px;
-    width: auto;
-    margin-right: 5px;
-    margin-top: -80px;
-}
-
-/* Ensure digit images are in a row */
-#finalScoreNumbers,
-#bestScoreNumbers {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  height: 120px;
+  width: auto;
+  margin-right: 5px;
+  margin-top: -50px;
 }
 
 /* Digit images */
+#finalScoreNumbers,
+#bestScoreNumbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 #finalScoreNumbers img {
-    width: 18px;
-    height: 28px;
-    margin: 0 1px;
+  width: 20px;
+  height: 30px;
+  margin: 0 1px;
+  image-rendering: pixelated;
 }
 #bestScoreNumbers img {
-    width: 18px;
-    height: 28px;
-    margin: 0 1px;
-    margin-top: -75px;
+  width: 20px;
+  height: 30px;
+  margin: 0 1px;
+  image-rendering: pixelated;
+  margin-top: -50px;
 }
 
 /* Restart Button */
 #restartBtn {
-    max-width: 100px;
-    margin-top: 6px;
-    cursor: pointer;
-    transition: transform 0.1s ease;
+  max-width: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
 }
 
-/* Click effect for buttons and remove blue outline/highlight */
 img.button {
-    cursor: pointer;
-    transition: transform 0.1s ease;
-    outline: none;
-    -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 img.button:active {
-    transform: scale(0.95); 
+  transform: scale(0.95);
 }

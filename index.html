@@ -8,27 +8,34 @@
 </head>
 <body>
 
-    <!-- Game Canvas -->
-    <canvas id="gameCanvas"></canvas>
+    <div id="gameContainer">
+        <!-- Game Canvas -->
+        <canvas id="gameCanvas"></canvas>
 
-    <!-- Main Menu -->
-    <div id="menu">
-        <img id="menuTitle" src="sprites/flappybird-text.png" alt="Flappy Bird">
-        <img id="startBtn" class="button" src="sprites/play.png" alt="Play">
-    </div>
+        <!-- Main Menu -->
+        <div id="menu">
+            <img id="menuTitle" src="sprites/flappybird-text.png" alt="Flappy Bird">
+            <img id="startBtn" class="button" src="sprites/play.png" alt="Play">
+        </div>
+        
+        <!-- Get Ready Screen -->
+        <div id="getReadyScreen">
+            <img src="sprites/get-ready.png" alt="Get Ready">
+        </div>
 
-    <!-- Game Over Screen -->
-    <div id="gameOverScreen">
-        <img id="gameOverText" src="sprites/gameover-text.png" alt="Game Over!">
-        <div id="finalScoreContainer">
-            <img src="sprites/final-score.png" alt="Final Score">
-            <div id="finalScoreNumbers"></div>
+        <!-- Game Over Screen -->
+        <div id="gameOverScreen">
+            <img id="gameOverText" src="sprites/gameover-text.png" alt="Game Over!">
+            <div id="finalScoreContainer">
+                <img src="sprites/final-score.png" alt="Final Score">
+                <div id="finalScoreNumbers"></div>
+            </div>
+            <div id="bestScoreContainer">
+                <img src="sprites/best-text.png" alt="Best Score">
+                <div id="bestScoreNumbers"></div>
+            </div>
+            <img id="restartBtn" class="button" src="sprites/restart.png" alt="Restart">
         </div>
-        <div id="bestScoreContainer">
-            <img src="sprites/best-text.png" alt="Best Score">
-            <div id="bestScoreNumbers"></div>
-        </div>
-        <img id="restartBtn" class="button" src="sprites/restart.png" alt="Restart">
     </div>
 
     <script src="game.js"></script>
