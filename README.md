@@ -62,4 +62,4 @@ The mobile app in the releases is a little different because it has a fullscreen
 
 # ❌ Errors
 
-- There are no errors. :)
+- Sounds don't work in the web page
