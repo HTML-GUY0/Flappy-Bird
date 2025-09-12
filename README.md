@@ -2,6 +2,9 @@
 
 A Flappy Bird game built primarily using **JavaScript**.
 
+# !⚠️ IMPORTANT NOTE ⚠️!
+It doesn't supports desktop devices. 
+
 ---
 
 # ⭐ Features
