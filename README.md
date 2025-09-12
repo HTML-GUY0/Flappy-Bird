@@ -14,7 +14,7 @@ The mobile app in the releases is a little different because it has a fullscreen
 - **Easier Gameplay** – Adjusted difficulty for smoother experience.  
 - **Reduced Jump Height** – More controlled bird movements.  
 - **Game Over Screen** – Displays red "Game Over" text when you lose.  
-- **Restart Button** – Play again immediately after losing.  
+- **Restart Button** – Play again immediately after losing by pressing "**Enter**" key or the "**restart**" button.  
 - **Main Menu Button** – Return to the main menu after losing.  
 - **Sky Background** – Visually appealing backdrop.  
 - **Base Image** – Animated ground/base without any sprite sheet.  
