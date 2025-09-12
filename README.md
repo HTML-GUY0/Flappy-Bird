@@ -2,8 +2,8 @@
 
 A Flappy Bird game built primarily using **JavaScript**.
 
-# !⚠️ IMPORTANT NOTE ⚠️!
-It doesn't supports desktop devices. 
+# 📝 Note
+The mobile app in the releases is a little different because it has a fullscreen canvas.
 
 ---
 
