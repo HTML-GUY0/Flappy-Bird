@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #70c5ce;
+  background-color: #4EC0CA;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -60,25 +60,26 @@ canvas {
 /* Game Over Screen */
 #gameOverScreen {
   position: absolute;
-  top: 50%;
+  top: 100%; /* start off-screen at the bottom */
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translateX(-50%); /* only center horizontally */
   padding: 10px;
   border-radius: 8px;
   display: none;
   opacity: 0;
   text-align: center;
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: top 0.9s ease-out, opacity 0.5s ease-out;
   z-index: 10;
 }
 
 #gameOverScreen.show {
+  top: 50%; /* slide to center */
   opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%);
 }
 
 #gameOverText {
-  width: 160px;
+  width: 250px;
   margin: 0 auto 10px;
   margin-bottom: -50px;
 }
@@ -93,7 +94,7 @@ canvas {
 }
 
 #finalScoreContainer img {
-  height: 200px;
+  height: 230px;
   width: auto;
   object-fit: contain;
   margin-right: 5px;
@@ -103,7 +104,7 @@ canvas {
   height: 120px;
   width: auto;
   margin-right: 5px;
-  margin-top: -50px;
+  margin-top: -70px;
 }
 
 /* Digit images */
@@ -126,13 +127,13 @@ canvas {
   height: 30px;
   margin: 0 1px;
   image-rendering: pixelated;
-  margin-top: -50px;
+  margin-top: -70px;
 }
 
 /* Restart Button */
 #restartBtn {
-  max-width: 100px;
-  margin-top: 10px;
+  max-width: 130px;
+  margin-top: -10px;
   cursor: pointer;
   transition: transform 0.1s ease;
 }
