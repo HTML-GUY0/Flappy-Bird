@@ -5,7 +5,6 @@ const ctx = canvas.getContext("2d");
 const ORIGINAL_WIDTH = 320;
 const ORIGINAL_HEIGHT = 480;
 
-// --- Resize Canvas (Fullscreen Support for Desktop + Mobile) ---
 function resizeCanvas() {
     const windowWidth = window.innerWidth;
     const windowHeight = window.innerHeight;
