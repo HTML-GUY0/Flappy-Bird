@@ -21,7 +21,6 @@ body {
 
 canvas {
   border: 2px solid black;
-  background: url("sprites/sky.png") no-repeat center center / cover;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
@@ -35,17 +34,19 @@ canvas {
   z-index: 10;
 }
 
-#menu img {
+#startBtn {
   display: block;
   margin: 10px auto;
   cursor: pointer;
   width: auto;
-  max-width: 150px;
-  transition: transform 0.1s ease;
+  max-width: 200px;
+  transition: transform 0.4s ease;
+  margin-bottom: -70px;
 }
 
 #menuTitle {
-  width: 200px;
+  width: 250px;
+  margin-top: -100px;
 }
 
 /* Get Ready Screen */
@@ -60,20 +61,20 @@ canvas {
 /* Game Over Screen */
 #gameOverScreen {
   position: absolute;
-  top: 100%; /* start off-screen at the bottom */
+  top: 100%;
   left: 50%;
-  transform: translateX(-50%); /* only center horizontally */
+  transform: translateX(-50%);
   padding: 10px;
   border-radius: 8px;
   display: none;
   opacity: 0;
   text-align: center;
-  transition: top 0.9s ease-out, opacity 0.5s ease-out;
+  transition: top 0.7s ease-out, opacity 0.5s ease-out;
   z-index: 10;
 }
 
 #gameOverScreen.show {
-  top: 50%; /* slide to center */
+  top: 50%;
   opacity: 1;
   transform: translate(-50%, -50%);
 }
@@ -104,7 +105,7 @@ canvas {
   height: 120px;
   width: auto;
   margin-right: 5px;
-  margin-top: -70px;
+  margin-top: -90px;
 }
 
 /* Digit images */
@@ -127,24 +128,25 @@ canvas {
   height: 30px;
   margin: 0 1px;
   image-rendering: pixelated;
-  margin-top: -70px;
+  margin-top: -90px;
 }
 
 /* Restart Button */
 #restartBtn {
-  max-width: 130px;
-  margin-top: -10px;
+  max-width: 150px;
+  margin-bottom: -10px;
+  margin-right: -8px;
   cursor: pointer;
-  transition: transform 0.1s ease;
+  transition: transform 0.4s ease;
 }
 
 img.button {
   cursor: pointer;
-  transition: transform 0.1s ease;
+  transition: transform 0.4s ease;
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
 
 img.button:active {
-  transform: scale(0.95);
+  transform: scale(0.87);
 }
